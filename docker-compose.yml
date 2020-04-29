@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:
+  file-storage:
+    image: file-storage:0.0.1-SNAPSHOT
+    ports:
+      - "9091:9091"
+    environment: 
+      - SPRING_PROFILES_ACTIVE=docker

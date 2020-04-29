@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local
+  datasource:
+    url: jdbc:h2:file:${fileStorage.storage_directory}
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+server:
+  port: 9091

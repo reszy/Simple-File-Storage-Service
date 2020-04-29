@@ -1,0 +1,13 @@
+{
+    "groups": [
+        {
+            "name": "fileStorage"
+        }
+    ],
+    "properties": [
+        {
+            "name": "fileStorage.storage_directory",
+            "type": "java.lang.String"
+        }
+    ]
+}
