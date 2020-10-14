@@ -28,7 +28,7 @@
 		<jackson-databind.version>2.10.3</jackson-databind.version>
 		<google-guava.version>28.2-jre</google-guava.version>
 
-		<junit.version>4.13</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<spockframework.version>1.3-groovy-2.4</spockframework.version>
 		<groovy-all.version>2.4.19</groovy-all.version>
 		<!-- PLUGINS -->
