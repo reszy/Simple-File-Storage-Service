@@ -24,7 +24,7 @@
 		<lombok.version>1.18.12</lombok.version>
 		<spockframework.version>2.0-M2-groovy-3.0</spockframework.version>
 		<apache-commons.version>3.9</apache-commons.version>
-		<apache-commons-io.version>2.6</apache-commons-io.version>
+		<apache-commons-io.version>2.7</apache-commons-io.version>
 		<jackson-databind.version>2.10.3</jackson-databind.version>
 		<google-guava.version>28.2-jre</google-guava.version>
 
