@@ -20,7 +20,7 @@
 
 		<!-- DEPENDENCIES -->
 		<spring-boot.version>2.2.5.RELEASE</spring-boot.version>
-		<h2.version>1.4.199</h2.version>
+		<h2.version>2.0.206</h2.version>
 		<lombok.version>1.18.12</lombok.version>
 		<spockframework.version>2.0-M2-groovy-3.0</spockframework.version>
 		<apache-commons.version>3.9</apache-commons.version>
