@@ -8,6 +8,10 @@
         {
             "name": "fileStorage.storage_directory",
             "type": "java.lang.String"
+        },
+        {
+            "name": "fileStorage.create_storage",
+            "type": "java.lang.Boolean"
         }
     ]
 }

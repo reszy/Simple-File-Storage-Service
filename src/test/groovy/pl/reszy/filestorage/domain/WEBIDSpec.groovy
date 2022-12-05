@@ -1,8 +1,7 @@
-import pl.reszy.filestorage.domain.WEBID;
+package pl.reszy.filestorage.domain
 
 import spock.lang.Specification
 import spock.lang.Unroll
-import java.util.UUID;
 
 class WEBIDSpec extends Specification {
 
@@ -31,10 +30,10 @@ class WEBIDSpec extends Specification {
     @Unroll
     def "should convert to hex #hexValue"() {
         when:
-        def result =WEBID.toHexCharacter(hexValue)
+        char result = WEBID.toHexCharacter(hexValue)
 
         then:
-        result == hexChar
+        result == hexChar.charAt(0)
 
         where:
         hexValue||hexChar

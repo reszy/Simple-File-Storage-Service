@@ -1,5 +1,7 @@
 package pl.reszy.filestorage.domain;
 
+import com.google.common.annotations.VisibleForTesting;
+
 import java.util.UUID;
 
 public class WEBID {
