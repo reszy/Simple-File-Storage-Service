@@ -28,3 +28,5 @@ target/
 .classpath
 .factorypath
 .project
+
+tmpFileStorage/
